@@ -1,0 +1,30 @@
+/* Details
+--------------------------------------------- */
+
+.wp-block-details summary {
+  padding: 0.5em var(--wp--custom--spacing--vertical-xs);
+  border-radius: var(--wp--custom--border-radius--sm);
+  background-color: var(--wp--custom--color--neutral-30);
+  &:hover {
+    background-color: var(--wp--custom--color--neutral-50);
+    text-decoration: none;
+  }
+  &.current {
+    color: var(--wp--preset--color--text-subtle);
+    background-color: var(--wp--custom--color--neutral-20);
+    &:hover {
+      background-color: var(--wp--custom--color--neutral-30);
+      text-decoration: none;
+    }
+  }
+}
+
+.wp-block-details {
+  background-color: var(--wp--custom--color--neutral-20);
+  border-radius: var(--wp--custom--border-radius--sm);
+}
+
+.wp-block-details > * {
+  padding-left: var(--wp--custom--spacing--vertical-xs);
+  padding-right: var(--wp--custom--spacing--vertical-xs);
+}

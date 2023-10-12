@@ -1,0 +1,16 @@
+.wp-block-pullquote {
+  border: 1px solid blue;
+  & blockquote {
+    margin-inline-start: var(--wp--custom--spacing--vertical-md);
+    margin-inline-end: var(--wp--custom--spacing--vertical-md);
+    border: 1px solid red;
+  }
+  &:before {
+    content: "”";
+    color: var(--wp--preset--color--text-subtle);
+    font-size: 3em;
+    line-height: 1;
+    margin-inline-start: var(--wp--custom--spacing--vertical-md);
+    margin-inline-end: var(--wp--custom--spacing--vertical-md);
+  }
+}

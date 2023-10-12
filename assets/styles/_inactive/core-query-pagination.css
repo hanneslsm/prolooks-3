@@ -1,0 +1,27 @@
+/*
+** Query Pagination Next
+
+
+.wp-block-query-pagination-next {
+    padding: 0.25em 0.75em;
+    border-radius: 3px;
+    &:hover {
+      background-color: var(--wp--custom--color--neutral-50);
+      text-decoration: none;
+    }
+  }
+  */
+
+/*
+** Query Pagination Previous
+
+
+.wp-block-query-pagination-previous {
+    padding: 0.25em 0.75em;
+    border-radius: 3px;
+    &:hover {
+      background-color: var(--wp--custom--color--neutral-50);
+      text-decoration: none;
+    }
+  }
+  */

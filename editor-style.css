@@ -1,0 +1,20 @@
+/* Editor Styles
+--------------------------------------------- */
+
+/* Differentiate the title to make clear it's not a block */
+.edit-post-visual-editor__post-title-wrapper {
+  box-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+  background-color: rgb(248 250 252);
+  padding: 0.1em 0em;
+  margin-bottom: 2em;
+}
+
+/* EXPERIMENTAL */
+
+/* Show blocks for easier editing */
+@media screen and (min-width: 1024px) {
+  .wp-block:hover .wp-block {
+    outline: 1px dotted
+      color-mix(in srgb, var(--wp-admin-theme-color) 20%, transparent);
+  }
+}
