@@ -321,84 +321,92 @@
       ],
       "fontSizes": [
         {
-          "name": "🐘 Display (XL)",
-          "size": "var(--wp--custom--font-size--display-xl)",
-          "slug": "display-xl"
+          "fluid": {
+            "min": "3.25rem"
+          },
+          "size": "6rem",
+          "name": "title-4-xl",
+          "slug": "title-4-xl"
         },
         {
-          "name": "🐘 Display (LG)",
-          "size": "var(--wp--custom--font-size--display-lg)",
-          "slug": "display-lg"
+          "fluid": {
+            "min": "3rem"
+          },
+          "size": "4.5rem",
+          "name": "title-3-xl",
+          "slug": "title-3-xl"
         },
         {
-          "name": "🐘 Display (MD)",
-          "size": "var(--wp--custom--font-size--display-md)",
-          "slug": "display-md"
+          "fluid": {
+            "min": "2.75rem"
+          },
+          "size": "4.5rem",
+          "name": "title-3-xl",
+          "slug": "title-3-xl"
         },
         {
-          "name": "🐘 Display (SM)",
-          "size": "var(--wp--custom--font-size--display-sm)",
-          "slug": "display-sm"
+          "fluid": {
+            "min": "2.5rem"
+          },
+          "size": "4rem",
+          "name": "title-2-xl",
+          "slug": "title-2-xl"
         },
         {
-          "name": "🐂 Heading (XL)",
-          "size": "var(--wp--custom--font-size--heading-xl)",
-          "slug": "heading-xl"
+          "fluid": {
+            "min": "2.25rem"
+          },
+          "size": "3.25rem",
+          "name": "title-xl",
+          "slug": "title-xl"
         },
         {
-          "name": "🐂 Heading (LG)",
-          "size": "var(--wp--custom--font-size--heading-lg)",
-          "slug": "heading-lg"
+          "fluid": {
+            "min": "2rem"
+          },
+          "size": "3rem",
+          "name": "title-lg",
+          "slug": "title-lg"
         },
         {
-          "name": "🐂 Heading (MD)",
-          "size": "var(--wp--custom--font-size--heading-md)",
-          "slug": "heading-md"
+          "fluid": {
+            "min": "1.75rem"
+          },
+          "size": "2.25rem",
+          "name": "title-md",
+          "slug": "title-md"
         },
         {
-          "name": "🐂 Heading (SM)",
-          "size": "var(--wp--custom--font-size--heading-sm)",
-          "slug": "heading-sm"
+          "fluid": {
+            "min": "1.5rem"
+          },
+          "size": "1.75rem",
+          "name": "title-sm",
+          "slug": "title-sm"
         },
         {
-          "name": "🐂 Heading (XS)",
-          "size": "var(--wp--custom--font-size--heading-xs)",
-          "slug": "heading-xs"
+          "fluid": {
+            "min": "1.375rem"
+          },
+          "size": "1.5rem",
+          "name": "title-xs",
+          "slug": "title-xs"
         },
         {
-          "name": "🐂 Heading (XXS)",
-          "size": "var(--wp--custom--font-size--heading-xxs)",
-          "slug": "heading-xxs"
+          "fluid": {
+            "min": "1.1875rem"
+          },
+          "size": "1.25rem",
+          "name": "title-2-xs",
+          "slug": "title-2-xs"
         },
         {
-          "name": "🦮 Paragraph (LG)",
-          "size": "var(--wp--custom--font-size--paragraph-lg)",
-          "slug": "paragraph-lg"
-        },
-        {
-          "name": "🦮 Paragraph (MD) (Default)",
-          "size": "var(--wp--custom--font-size--paragraph-md)",
-          "slug": "paragraph-md"
-        },
-        {
-          "name": "🦮 Paragraph (SM)",
-          "size": "var(--wp--custom--font-size--paragraph-sm)",
-          "slug": "paragraph-sm"
-        },
-        {
-          "name": "🐓 Info (LG)",
-          "size": "var(--wp--custom--font-size--info-lg)",
-          "slug": "info-lg"
-        },
-        {
-          "name": "🐓 Info (MD)",
-          "size": "var(--wp--custom--font-size--info-md)",
-          "slug": "info-md"
-        },
-        {
-          "name": "🐓 Info (SM)",
-          "size": "var(--wp--custom--font-size--info-sm)",
-          "slug": "info-sm"
+          "fluid": {
+            "min": "1.125rem"
+          },
+          "size": "1.1875rem",
+          "name": "title-3-xs",
+          "slug": "title-3-xs"
         }
       ],
       "fontStyle": true,
