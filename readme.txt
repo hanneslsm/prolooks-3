@@ -39,6 +39,14 @@ License URL: http://scripts.sil.org/OFL
 Source: https://rsms.me/
 -- End of Inter Font credits --
 
+Work Sans Font
+Copyright 2019 The Work Sans Project Authors (https://github.com/weiweihuanghuang/Work-Sans) 
+This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL 
+License URL: http://scripts.sil.org/OFL 
+Source: http://weiweihuanghuang.github.io/
+-- End of Work Sans Font credits --
+
+
 OllieWP
 Parts of the ProLooksUI are based on or inspired by OllieWP:
 1. /functions.php - register_block_styles()
@@ -55,3 +63,4 @@ License: Unsplash License
 License URL: https://unsplash.com/license
 Source: https://unsplash.com/
 -- End of Images credits --
+

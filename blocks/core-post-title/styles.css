@@ -1,0 +1,10 @@
+/* Post Title
+* @since ProLooks 3
+--------------------------------------------- */
+
+.wp-block-post-title {
+  & a:hover {
+    text-decoration: underline;
+  }
+}
+  

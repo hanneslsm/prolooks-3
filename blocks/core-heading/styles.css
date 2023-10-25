@@ -1,0 +1,7 @@
+/* Heading
+* @since ProLooks 3
+--------------------------------------------- */
+
+.wp-block-heading {
+  text-wrap: balance;
+}

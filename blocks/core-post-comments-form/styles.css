@@ -1,0 +1,7 @@
+/** Comments Form
+* @since ProLooks 3
+* --------------------------------------------- */
+
+.comment-reply-title {
+  font-size: var(--wp--preset--font-size--extra-large);
+}

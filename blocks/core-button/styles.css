@@ -1,0 +1,34 @@
+/** Button
+* @since ProLooks 3
+* --------------------------------------------- */
+
+/**
+ * Default, but not variantions
+ */
+.wp-block-button:not([class*="is-style-"]) > .wp-block-button__link,
+.wp-block-button.is-style-fill > .wp-block-button__link {
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.wp-block-button__link {
+  transition: all 0.1s ease-in-out;
+  /* remove the flashing from currentColor */
+  outline-color: var(--wp--preset--color--brand-light-default);
+  &:hover {
+    outline: 1px solid var(--wp--preset--color--brand-light-default);
+    outline-offset: 1px;
+    background-color: var(--wp--preset--color--brand-light-lighter);
+  }
+}
+
+/**
+ * Variations
+ */
+.is-style-button-secondary {
+  border: 3px solid red;
+}
+
+.is-style-button-tertiary {
+  border: 3px solid blue !important;
+  background-color: red !important;
+}

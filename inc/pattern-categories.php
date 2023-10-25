@@ -2,7 +2,7 @@
 /**
  * Pattern categories
  * 
- * @package prolooks11landingpage
+ * @package prolooks
  * @since 1.0
  * @link https://developer.wordpress.org/themes/advanced-topics/block-patterns/
  */

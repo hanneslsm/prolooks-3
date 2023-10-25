@@ -1,0 +1,38 @@
+/* Post Terms
+* @since ProLooks 3
+--------------------------------------------- */
+
+.is-style-post-terms-label {
+  &.taxonomy-category {
+    & a {
+      font-size: var(--wp--preset--font-size--small);
+      padding: 0.5ex 2ex;
+      background-color: var(--wp--preset--color--light-default);
+      border-radius: 1em;
+      color: var(--wp--preset--color--light-contrast);
+      transition: all 0.2s ease;
+    }
+    & a:hover {
+      background-color: var(--wp--preset--color--light-darker);
+    }
+  }
+
+  &.taxonomy-post_tag {
+    & a {
+      font-size: var(--wp--preset--font-size--small);
+      padding: 0.5ex 2ex;
+      border: 1px solid var(--wp--preset--color--light-darker);
+      border-radius: 1em;
+      color: var(--wp--preset--color--light-contrast);
+      transition: all 0.2s ease;
+    }
+    & a:hover {
+      background-color: var(--wp--preset--color--light-default);
+    }
+  }
+
+  & .wp-block-post-terms__separator {
+    padding: 0px;
+    color: transparent;
+  }
+}
