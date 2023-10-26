@@ -69,3 +69,7 @@ strong {
 .rotate-minus-2 {
   transform: rotate(-2deg);
 }
+
+.balance {
+  text-wrap: balance;
+}
