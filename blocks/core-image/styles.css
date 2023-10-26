@@ -1,0 +1,8 @@
+.is-style-image-hover-zoom {
+  & img {
+    transition: transform 0.2s ease-in-out;
+  }
+  &:hover img {
+    transform: scale(1.05);
+  }
+}

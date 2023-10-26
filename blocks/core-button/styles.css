@@ -24,11 +24,28 @@
 /**
  * Variations
  */
-.is-style-button-secondary {
-  border: 3px solid red;
+.is-style-outline a:hover {
+  background-color: red !important;
 }
 
-.is-style-button-tertiary {
-  border: 3px solid blue !important;
-  background-color: red !important;
+.is-style-button-border .wp-block-button__link {
+  box-sizing: border-box;
+  color: var(--wp--preset--color--brand-dark-default) !important;
+  background-color: var(--wp--preset--color--brand-light-lightest) !important;
+  box-shadow: inset 0px 0px 0px 1px;
+
+  &:hover {
+    background-color: var(--wp--preset--color--brand-light-lighter) !important;
+  }
+}
+
+.is-style-button-ghost .wp-block-button__link {
+  box-sizing: border-box;
+  color: var(--wp--preset--color--brand-dark-default) !important;
+  background-color: transparent !important;
+  text-decoration: underline;
+
+  &:hover {
+    background-color: var(--wp--preset--color--light-default) !important;
+  }
 }
