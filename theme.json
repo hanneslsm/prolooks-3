@@ -416,7 +416,7 @@
                 "textDecoration": "underline"
               },
               "color": {
-                "text": "var(--wp--preset--color--dark-darker) !important"
+                "text": "var(--wp--preset--color--brand-dark-default) !important"
               }
             },
             "typography": {
