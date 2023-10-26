@@ -424,6 +424,26 @@
             }
           }
         }
+      },
+      "core/navigation": {
+        "elements": {
+          "link": {
+            ":hover": {
+              "typography": {
+                "textDecoration": "underline"
+              },
+              "color": {
+                "text": "var(--wp--preset--color--dark-darker) !important"
+              }
+            },
+            "typography": {
+              "textDecoration": "none"
+            },
+            "color": {
+              "text": "var(--wp--preset--color--dark-default) !important"
+            }
+          }
+        }
       }
     },
     "color": {
