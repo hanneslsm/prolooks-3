@@ -1,15 +1,14 @@
 === ProLooks ===
-Contributors: Studio Leismann
+Contributors: hanneslsm, Studio Leismann
 Requires at least: 6.3
-Tested up to: 6.3
+Tested up to: 6.4-RC2
 Requires PHP: 7.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-ProLooks is a versatile WordPress block theme that goes beyond traditional themes by supporting intrinsic design & fluid typography and functioning as a design system.
-ProLooks serves as an ideal starting point for creating new websites and provides a wide range of patterns to choose from. It is specifically tailored for WordPress, ensuring optimal compatibility and optimization for the Wordpress Editor.
+ProLooks is a versatile WordPress block theme that goes beyond traditional themes by supporting intrinsic design &amp; fluid typography and functioning as a design system. It ensures optimal compatibility and optimization for the Wordpress Core-Editor.
 
 == Changelog ==
 
@@ -64,3 +63,7 @@ License URL: https://unsplash.com/license
 Source: https://unsplash.com/
 -- End of Images credits --
 
+
+== Recommended Plugins ==
+
+https://wordpress.org/plugins/animations-for-blocks/
