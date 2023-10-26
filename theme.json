@@ -424,6 +424,32 @@
             }
           }
         }
+      },
+      "core/navigation": {
+        "elements": {
+          "link": {
+            "spacing": {
+              "padding": {
+                "top": "2px",
+                "bottom": "2px",
+                "left": "8px",
+                "right": "8px"
+              },
+              "blockGap": "2px"
+            },
+            ":hover": {
+              "typography": {
+                "textDecoration": "underline"
+              },
+              "color": {
+                "background": "grey"
+              }
+            },
+            "typography": {
+              "textDecoration": "none"
+            }
+          }
+        }
       }
     },
     "color": {
