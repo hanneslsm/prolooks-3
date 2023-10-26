@@ -24,9 +24,6 @@
 /**
  * Variations
  */
-.is-style-outline a:hover {
-  background-color: red !important;
-}
 
 .is-style-button-border .wp-block-button__link {
   box-sizing: border-box;
