@@ -3,10 +3,18 @@
 --------------------------------------------- */
 
 /**
+* Default
+*/
+ul {
+  box-sizing: content-box;
+}
+
+/**
  * Variations
  */
 ul.is-style-list-checkmark {
   list-style-type: "\2713";
+
   & li {
     padding-inline-start: 1ch;
   }
