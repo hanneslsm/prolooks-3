@@ -392,35 +392,35 @@
       "core/button": {
         "border": {
           "bottom": {
-            "color": "var(--wp--preset--color--brand-light-darker)",
+            "color": "var(--wp--preset--color--brand-dark-lighter)",
             "style": "solid",
             "width": "1px"
           },
           "left": {
-            "color": "var(--wp--preset--color--brand-light-darker)",
+            "color": "var(--wp--preset--color--brand-dark-lighter)",
             "style": "solid",
             "width": "1px"
           },
           "radius": "6px",
           "right": {
-            "color": "var(--wp--preset--color--brand-light-darker)",
+            "color": "var(--wp--preset--color--brand-dark-lighter)",
             "style": "solid",
             "width": "1px"
           },
           "top": {
-            "color": "var(--wp--preset--color--brand-light-darker)",
+            "color": "var(--wp--preset--color--brand-dark-lighter)",
             "style": "solid",
             "width": "1px"
           }
         },
         "color": {
-          "background": "var(--wp--preset--color--brand-light-default)",
-          "text": "var(--wp--preset--color--brand-light-contrast)"
+          "background": "var(--wp--preset--color--brand-dark-default)",
+          "text": "var(--wp--preset--color--brand-dark-contrast)"
         },
         "elements": {
           "link": {
             "color": {
-              "text": "var(--wp--preset--color--brand-light-contrast)"
+              "text": "var(--wp--preset--color--brand-dark-contrast)"
             }
           }
         }
@@ -432,8 +432,11 @@
     },
     "elements": {
       "caption": {
+        "color": {
+          "text": "var(--wp--preset--color--dark-lightest)"
+        },
         "typography": {
-          "fontSize": "var(--wp--custom--font-size--small)"
+          "fontSize": "var(--wp--preset--font-size--small)"
         }
       },
       "h1": {
@@ -471,7 +474,7 @@
       },
       "heading": {
         "color": {
-          "text": "var(--wp--preset--color--dark-darker)"
+          "text": "var(--wp--preset--color--brand-dark-default)"
         },
         "typography": {
           "fontStyle": "normal",
