@@ -10,14 +10,14 @@
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
+.wp-element-button,
 .wp-block-button__link {
   transition: all 0.1s ease-in-out;
+
   /* remove the flashing from currentColor */
   outline-color: var(--wp--preset--color--brand-light-default);
   &:hover {
-    outline: 1px solid var(--wp--preset--color--brand-light-default);
-    outline-offset: 1px;
-    background-color: var(--wp--preset--color--brand-light-lighter);
+    background-color: var(--wp--preset--color--brand-dark-lighter) !important;
   }
 }
 
