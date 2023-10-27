@@ -46,14 +46,13 @@ Source: http://weiweihuanghuang.github.io/
 -- End of Work Sans Font credits --
 
 
-OllieWP
-Parts of the ProLooksUI are based on or inspired by OllieWP:
-1. /functions.php - register_block_styles()
-2. /functions.php - enqueue_custom_block_styles()
-License: GPL v2
-License URL: https://github.com/OllieWP/ollie/blob/main/LICENSE
-Source: https://github.com/OllieWP
--- End of OllieWP credits --
+HeroIcons
+icons in the assets folder are fom heroicons:
+1. /assets/icons
+License: MIT
+License URL: https://github.com/tailwindlabs/heroicons/blob/master/LICENSE
+Source: https://github.com/tailwindlabs/heroicons
+-- End of heroicons credits --
 
 Images
 All used photos are from unsplash.com
