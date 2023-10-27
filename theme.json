@@ -452,7 +452,7 @@
       "button": {
         "color": {
           "background": "var(--wp--preset--color--brand-dark-default)",
-          "text": "var(--wp--preset--color--brand-dark-contrast"
+          "text": "var(--wp--preset--color--brand-dark-contrast)"
         },
         "border": {
           "radius": "0.5em"
