@@ -66,3 +66,4 @@ Source: https://unsplash.com/
 == Recommended Plugins ==
 
 https://wordpress.org/plugins/animations-for-blocks/
+https://wordpress.org/plugins/safe-svg/
