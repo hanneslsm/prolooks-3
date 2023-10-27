@@ -70,6 +70,25 @@ strong {
   transform: rotate(-2deg);
 }
 
+/*
+** Text balance
+*/
 .balance {
   text-wrap: balance;
+}
+
+/*
+** Design helper classes
+*/
+
+/*
+** Label
+*/
+.prolooks-label {
+  font-size: var(--wp--preset--font-size--small);
+  padding: 0.5ex 2ex !important;
+  border: 1px solid var(--wp--preset--color--light-darker);
+  border-radius: 1em;
+  color: var(--wp--preset--color--light-contrast);
+  transition: all 0.2s ease;
 }
