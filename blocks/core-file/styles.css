@@ -1,0 +1,10 @@
+/* File
+* @since ProLooks 3
+--------------------------------------------- */
+
+/*
+* https://github.com/WordPress/gutenberg/issues/46755
+*/
+.wp-block-file__button:hover {
+  opacity: 1;
+}
