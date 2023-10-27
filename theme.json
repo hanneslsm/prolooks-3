@@ -450,17 +450,17 @@
     },
     "elements": {
       "button": {
-        "color": {
-          "background": "var(--wp--preset--color--brand-dark-default)",
-          "text": "var(--wp--preset--color--brand-dark-contrast)"
-        },
-        "border": {
-          "radius": "0.5em"
-        },
         ":hover": {
           "color": {
             "background": "var(--wp--preset--color--brand-dark-darker)"
           }
+        },
+        "border": {
+          "radius": "0.5em"
+        },
+        "color": {
+          "background": "var(--wp--preset--color--brand-dark-default)",
+          "text": "var(--wp--preset--color--brand-dark-contrast)"
         }
       },
       "caption": {
