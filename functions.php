@@ -13,3 +13,6 @@ require get_template_directory() . '/inc/setup.php';
 // Enqueue files
 require get_template_directory() . '/inc/enqueuing.php';
 
+// Dashboard Widget
+require get_template_directory() . '/inc/dashboard-widget.php';
+
