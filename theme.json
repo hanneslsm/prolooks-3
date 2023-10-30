@@ -234,6 +234,9 @@
     },
     "spacing": {
       "customSpacingSize": true,
+      "spacingScale": {
+        "steps": 0
+      },
       "spacingSizes": [
         {
           "name": "Tight",
