@@ -14,6 +14,7 @@ ul {
  */
 ul.is-style-list-checkmark {
   list-style-type: "\2713";
+  padding-inline-start: 2em;
 
   & li {
     padding-inline-start: 1ch;
@@ -22,7 +23,19 @@ ul.is-style-list-checkmark {
 
 ul.is-style-list-crossmark {
   list-style-type: "\2717";
+  padding-inline-start: 2em;
   & li {
     padding-inline-start: 1ch;
+  }
+}
+
+ul.is-style-list-square {
+  padding-inline-start: 2em;
+  & li {
+    padding-inline-start: 1ch;
+  }
+  ::marker {
+    content: "\23F9";
+    color: var(--wp--preset--color--brand-dark-default);
   }
 }

@@ -14,3 +14,8 @@ wp.blocks.registerBlockStyle("core/list", {
   name: "list-crossmark",
   label: "Cross mark",
 });
+
+wp.blocks.registerBlockStyle("core/list", {
+  name: "list-square",
+  label: "Blue Square",
+});
