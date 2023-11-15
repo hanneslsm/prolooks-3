@@ -31,11 +31,17 @@ ul.is-style-list-crossmark {
 
 ul.is-style-list-square {
   padding-inline-start: 2em;
+  list-style: none;
   & li {
     padding-inline-start: 1ch;
   }
-  ::marker {
-    content: "\23F9";
+  & li::before {
+    font-size: 0.6em;
+    vertical-align: 0.3em;
+    content: "\25AA";
     color: var(--wp--preset--color--brand-dark-default);
+    display: inline-block;
+    width: 3ex;
+    margin-left: -3ex;
   }
 }

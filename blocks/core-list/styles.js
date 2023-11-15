@@ -17,5 +17,5 @@ wp.blocks.registerBlockStyle("core/list", {
 
 wp.blocks.registerBlockStyle("core/list", {
   name: "list-square",
-  label: "Blue Square",
+  label: "Square (dark-default)",
 });
